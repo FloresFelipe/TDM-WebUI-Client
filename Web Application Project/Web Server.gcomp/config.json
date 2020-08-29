@@ -1,0 +1,29 @@
+{
+   "authorizationMarker": "/plugins/web_based_interactive_analysis/resources/marker.txt",
+   "buttonIconCls": "fa fa-area-chart",
+   "buttonLabelToken": "web_based_interactive_analysis.pluginTitle",
+   "buttonTooltipToken": "web_based_interactive_analysis.pluginTitle",
+   "iframeResources": {
+      "en": {
+         "json": [
+            "resources/json/locales/en.json"
+         ]
+      }
+   },
+   "iframeSrc": "plugins/web_based_interactive_analysis/Main_CallTaskFromWebVI.html",
+   "orderWeight": 2,
+   "permission": "",
+   "resources": {
+      "en": {
+         "css": [
+            "plugins/web_based_interactive_analysis/resources/css/web_based_interactive_analysis.css"
+         ],
+         "json": [
+            "plugins/web_based_interactive_analysis/resources/json/locales/en.json"
+         ]
+      }
+   },
+   "routeToken": "web_based_interactive_analysis",
+   "titleToken": "web_based_interactive_analysis.pluginTitle",
+   "waitUntilLaunched": false
+}
