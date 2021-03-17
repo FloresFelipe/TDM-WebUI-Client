@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="DC05F0489EE85BACFFB9CCAE548EA04A7A65E077203BC075EC61F7C09BEC1AE845127D43A379CA4F902257FCA7C53D5CC988FC31722FE8F0D42F9AC3DAC4DF75" Timestamp="1D71B510F5E12DC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="National Instruments Brazil Ltda." Product="Web Server" ShortDescription="National Instruments Brazil Ltda. Web Application Project" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="4035cd7dac9f460f8af197238207e693" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="nationalinstrumentsbrazilltda.-tdmwebapp" p3:DistributionCategory="Application" p3:MaintainerEmail="felipe.flores@ni.com" p3:MaintainerName="National Instruments Brazil Ltda." p3:PackageDisplayName="TDM Web App" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="240ac4c5eb894089bfb906b4217401eb" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="dc66c8b0ba74448a8b5a136133626922" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\Web Server&quot;" RootLocation="NISharedDirectory64" Target="::Web Server::Interactive::Web Server.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="5be31dd5fb1945b1ac12cd3aed578af4" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="20.1.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>

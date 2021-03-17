@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="F08CC56FD3E0C2A32CA304BC3E07130022DAA39659F46997246AAE39E78D4904331AF363CD44BCD8F52FAD6A04E49057034941D8B7BDB4DE74A264FF965EB31A" Timestamp="1D67C9C321D08ED" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="3CD3654167C917DBBC968BC0C482C09B5F4F921FB0C2ED47D043D394A03E9E009AE8A61A8EAAB99F30B96ECE165A68AE9C635C5AC942DC79532699DE9F1B045E" Timestamp="1D71B511FEC4655" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -17,15 +17,15 @@
 			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
 			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="6a862b9cf50640de968abfda18459c29" Id="6318805d124e4befb15c644f02bf0bd7" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="eeabc8b9ab904e4b8479e1baa6c275be" Id="ec03cdf999194ee58982599181f79edf" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="134d6efd18f2471e9e24c5eea076bca6" Id="8f754417e8cb4454a168f18f1682329f" />
-			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="5da7e388edff40ba8dcc6be73d54ccb7" Id="7b4ff0dac3e64ce8a744b0ffa8882048" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="c58620412acf47159abcca224548a8a9" Id="aef8c4d02fca4ed5be90def0db65a845" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="120c15fbcdc74390ada85fe257bc6ee4" Id="64ce570ea55c467c9ec6aad2a88df60d" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9b6d59de9b714bcaae0ce68c24f32374" Id="b52b6c53ca6b44708436d29c5868e08a" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="9891637ce6b44bc08a57038df64f893b" Id="c0a8d6454a6a4b63803833d13466ef6b" />
 			<ComponentItemProperties AssociatedEnvoyId="46502e7083a4459a1fe8aeae6d721c1" Id="8f9b76edf7bc43c6bbb87c075bc6d577" TopLevel="True" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="3f902d0ad7b74cfcb2aac84e05d8fd9c" Id="d4902a4524314831944c67406e46d058" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="b59d4d4fcc154bc988567c2fabb88c93" Id="1d475cf8a6f1436abb5b9894755e691f" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="659eaf55c7142d7a765ff0f5771032e" Id="595b40d373554d35869210847f7fa83c" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="da02b3b5eeed41378d74e13107f66ce4" Id="449719b19853476999f4c839504b73eb" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
@@ -50,11 +50,6 @@
 					</NameScopingEnvoy>
 					<FileReference Bindings=".txt" Id="9891637ce6b44bc08a57038df64f893b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="marker.txt" StoragePath="resources\marker.txt" />
 				</NameScopingEnvoy>
-				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a50e6baaa7c543c8bffd1191a962eb5e" Name="support files">
-					<FileReference Bindings=".conf" Id="eeabc8b9ab904e4b8479e1baa6c275be" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="52_web_based_interactive_analysis.conf" StoragePath="support files\52_web_based_interactive_analysis.conf" />
-					<FileReference Bindings=".htpriv" Id="134d6efd18f2471e9e24c5eea076bca6" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="web_based_interactive_analysis.htpriv" StoragePath="support files\web_based_interactive_analysis.htpriv" />
-					<FileReference Bindings=".xml" Id="5da7e388edff40ba8dcc6be73d54ccb7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="web_based_interactive_analysis.xml" StoragePath="support files\web_based_interactive_analysis.xml" />
-				</NameScopingEnvoy>
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="25ca3951a3bb4b7c82d558b2d9cb44e8" Name="Untitled" />
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2fa18ff9e53c4d248490d9a43b084b62" Name="subVIs">
 					<SourceFileReference Id="211c2ff1e6b04418b936223ba6469bcd" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Disable_Controls.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="subVIs\Disable_Controls.gviweb" />
@@ -68,6 +63,11 @@
 					<SourceFileReference Id="1fad36c4d88845308eb9608eea0693b5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Populate_TDM_Tree.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="subVIs\Populate_TDM_Tree.gviweb" />
 				</NameScopingEnvoy>
 				<SourceFileReference Id="c2d4add1b07e40be84a9357bf58277f1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Function.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="41a7405d02224f928ae12492aadb71b0" Name="support files">
+					<FileReference Bindings=".conf" Id="b59d4d4fcc154bc988567c2fabb88c93" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="52_web_based_interactive_analysis.conf" StoragePath="support files\52_web_based_interactive_analysis.conf" />
+					<FileReference Bindings=".htpriv" Id="659eaf55c7142d7a765ff0f5771032e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="web_based_interactive_analysis.htpriv" StoragePath="support files\web_based_interactive_analysis.htpriv" />
+					<FileReference Bindings=".xml" Id="da02b3b5eeed41378d74e13107f66ce4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="web_based_interactive_analysis.xml" StoragePath="support files\web_based_interactive_analysis.xml" />
+				</NameScopingEnvoy>
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="9" Name="Web Server.gcomp" NameTracksFileName="True">

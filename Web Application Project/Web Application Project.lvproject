@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E23025C92423AE36C83D91F828A715CD25BFECB622D763ECCC397F1A5DE21209643E6A97ADF2B3E23B4DF4AF9A8DA6B0B190F8FB8300D2BF1451BC2F174A9626" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="30EAE8528FFD81014140D1FDD2F3E907B4227C448E0625F049DE0204FF76E42B80E85E6DCB1A9A408572C4FE0F1C7472C7AD1B7AE0DEFF2FA80FD272CCBE7015" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Builders/SystemDesigner" Name="http://www.ni.com/Builders/SystemDesigner/SystemModel" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -251,6 +251,20 @@
 						<WeakDefaultComponentConfigurationReference Id="abd2776a0664476f9ec75eab8a057fc9" PackageName="ni-vision-imaqdx-src-20.0.0.niaddon" Target="IMAQdx Compatibility.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="786e111a93a94611ab4d67607a2142b0" PackageName="ni-xnet-xnet-src-20.0.0.niaddon" Target="xnet.gcomp" />
 						<ComponentConfigurationReferenceDependencySource Id="5fdd1a5cb05f4a6498933a04a17a79f9" Target="web_based_interactive_analysis.gcomp::Configuration1" />
+						<WeakDefaultComponentConfigurationReference Id="ec79ffce81ab418f9f152a199742e9dc" PackageName="ni-switchexecutive-switchexecutive-src-5.0.0.niaddon" Target="SwitchExecutive.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="2cb966b4df8044c88f1e09bfc80fb332" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="TSUtility.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="99a503f3497b4740bec84f6998e53229" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Termination Monitor.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="29bfef8e4b384121885a954bde39ca7b" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Support.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="8d2652f9782c45f9a173a21f59bba558" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Modal Dialogs.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="bec2e97eabec42a4b99ab8a828cbfd08" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Set Property Value.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="3078fa4c3dd74d13aada68834701d984" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Get Property Value.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="3a93855a84ed4fa9aabef914c433e59a" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Engine.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="71cb78e130e74c40a709ce0c4164ff36" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Adapter.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="9e109dacaa694a68ae634e25d0cff98f" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Session Manager.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="61609bb3fcbf4c7ca7f6565728267c3d" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Synchronization.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="3b70cf4223e946a8bd2c46fbc3fce39a" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="UI Support Library.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="f1e12d410e5b4b3c87bed506ee00d11b" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="UI Controls.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="f368351d2da94d3baecf98a6e21dac33" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Sequence Analyzer.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="32" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -306,6 +320,8 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="53bb3fe101574615b7956ee5ea3421e8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-20.0.0.niaddon" StoragePath="ref://NI/Vision/Core-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="4e2641bdf7de4e43b24fef93a91ad943" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-20.0.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="c12a929e353e4ee49ed8d19b0d28ff1c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-20.0.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="9d1fc0bfc4b24c70bf11f77028681ed6" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-switchexecutive-switchexecutive-src-5.0.0.niaddon" StoragePath="ref://NI/SwitchExecutive/SwitchExecutive-src/5.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="59e41af92d1b40afb668df665cbd6ad8" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-teststand-distribution-src-20.0.0.0.niaddon" StoragePath="ref://NI/TestStand/distribution-src/20.0.0.0" />
 					</EmbeddedDefinitionReference>
 					<EmbeddedDefinitionReference Bindings="{http://www.ni.com/GComponent.xsd}ComponentBaseType_Library,ComponentMoC" Id="11" ModelDefinitionType="ComponentDefinition" Name="Default Component">
 						<ComponentDefinition DefaultConfigurationName="Default" Id="12" RootNamespaceId="11" xmlns="http://www.ni.com/GComponent.xsd">
@@ -524,6 +540,20 @@
 						<WeakDefaultComponentConfigurationReference Id="9da735a69aa421e9eb48e9ff20b7b33" PackageName="ni-vision-imaqdx-src-20.0.0.niaddon" Target="IMAQdx.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="7f862ef281be43babd27ed3f63d416f3" PackageName="ni-vision-imaqdx-src-20.0.0.niaddon" Target="IMAQdx Compatibility.gcomp" />
 						<WeakDefaultComponentConfigurationReference Id="9ad1887348c6421dacd5e3389eef035a" PackageName="ni-xnet-xnet-src-20.0.0.niaddon" Target="xnet.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="963a8e1fcc054281ba030dfe96095207" PackageName="ni-switchexecutive-switchexecutive-src-5.0.0.niaddon" Target="SwitchExecutive.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="cdaf8e9301914b1ab65e4da051cc5602" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="TSUtility.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="2a81710b4c5f4bddb9996fbf6255367c" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Termination Monitor.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="2c95a825e05b48968a28fd266e5ba5d0" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Support.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="c3689bb14d24e9f9d41f4ad3bce3f6f" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Modal Dialogs.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="cff40a8cebe442ba2e605ea7b911e8f" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Set Property Value.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="8fff5212c8c5464797b7458978aef866" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Get Property Value.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="c157244b89e04a5980a3e21c24f65903" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Engine.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1f4b52058a814692be96476f7ac69eaf" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Adapter.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="cb1ffd4a0ad2467780bf7b374612f9b6" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Session Manager.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="fd9b754372de446495e3f0f6368e67d4" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Synchronization.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="f46838f9b8ff4d75b7fea8094abef3b4" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="UI Support Library.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="1657817192884f438150a000dae61366" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="UI Controls.gcomp" />
+						<WeakDefaultComponentConfigurationReference Id="36e2d84dc7694597b322b3c2369cd439" PackageName="ni-teststand-distribution-src-20.0.0.0.niaddon" Target="Sequence Analyzer.gcomp" />
 					</BuildSpecificationDefinition>
 					<EmbeddedDefinitionReference Id="550" ModelDefinitionType="PackageReferencesDefinition" Name="ProjectReferences">
 						<PackageReferencesDefinition />
@@ -579,6 +609,8 @@
 						<SourceFileReference Bindings="EnvoyManager" Id="4e5557d65ef947e5943ef50aff357180" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-algorithms-src-20.0.0.niaddon" StoragePath="ref://NI/Vision/Algorithms-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="2cae03c86fa040cd8105d7edf80422e2" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-20.0.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/20.0.0" />
 						<SourceFileReference Bindings="EnvoyManager" Id="c426a4d61ee14dc18d00ba1730f0ceec" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-20.0.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/20.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="f9495f1334844bf96c283b46adbc108" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-switchexecutive-switchexecutive-src-5.0.0.niaddon" StoragePath="ref://NI/SwitchExecutive/SwitchExecutive-src/5.0.0" />
+						<SourceFileReference Bindings="EnvoyManager" Id="7b78fc7465d94747b594a17812663a73" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-teststand-distribution-src-20.0.0.0.niaddon" StoragePath="ref://NI/TestStand/distribution-src/20.0.0.0" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent" Id="759" ModelDefinitionType="ComponentDefinition" Name="Web Server.gcomp" StoragePath="Web Server.gcomp\Web Server.gcomp" />
 				</NameScopingEnvoy>
@@ -640,6 +672,8 @@
 					<PackageInterfaceDefinitionContents Contents="Analytic.gcomp,Browser.gcomp,Classification.gcomp,Color.gcomp,Compatibility.gcomp,Complex.gcomp,Ext Lib Support.gcomp,Feature Matching.gcomp,Filters.gcomp,Image Manipulation.gcomp,Measure.gcomp,Morphology.gcomp,Motion Estimation.gcomp,Operator.gcomp,Pattern Matching.gcomp,Pixel Manipulation.gcomp,Processing.gcomp,ROI Conversion.gcomp,ROI Selection.gcomp,ROI Tools.gcomp,Stereo.gcomp,Texture.gcomp,Color Processing.gcomp,Analysis.gcomp,Calibration.gcomp,Contour.gcomp,FPGA Utilities.gcomp,Instrument.gcomp,Shape Detection.gcomp,Tracking.gcomp,OCR.gcomp,Inspection.gcomp,Machine Vision Tools.gcomp,Algorithms UDR.gcomp,Deep Learning.gcomp" Id="8fe23b847bc8423fa7fa2cf98819f396" PackageInterfaceDefinitionEnvoyId="25a5dbf602ac45ada1a6d37177bda3a8" />
 					<PackageInterfaceDefinitionContents Contents="IMAQdx.gcomp,IMAQdx Compatibility.gcomp" Id="b4f939ef892441f7b5c1cd3688f3dde5" PackageInterfaceDefinitionEnvoyId="e86e8652f9fa42979af5a143f379d118" />
 					<PackageInterfaceDefinitionContents Contents="xnet.gcomp" Id="b32ca9d1ea543e6973f5ea3789fa22f" PackageInterfaceDefinitionEnvoyId="2d4e93b2731f4ea1aefd9db89dd2a306" />
+					<PackageInterfaceDefinitionContents Contents="SwitchExecutive.gcomp" Id="3140fc424a6b4397a6e1bf669410df7c" PackageInterfaceDefinitionEnvoyId="bcb773faf9e44155aed0a3ac40499dee" />
+					<PackageInterfaceDefinitionContents Contents="TSUtility.gcomp,Termination Monitor.gcomp,Support.gcomp,Modal Dialogs.gcomp,Set Property Value.gcomp,Get Property Value.gcomp,Engine.gcomp,Adapter.gcomp,Session Manager.gcomp,Synchronization.gcomp,UI Support Library.gcomp,UI Controls.gcomp,Sequence Analyzer.gcomp" Id="e29e5e1b2f4ca2854208805f1126fa" PackageInterfaceDefinitionEnvoyId="fd2a1eb700aa42c9853e88c1fc0c12bb" />
 				</PackageReferencesDefinition>
 				<SourceFileReference Bindings="EnvoyManager" Id="deab5a341f744d40873c3104263df456" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-advanced-src-1.0.8.5.niaddon" StoragePath="ref://ni/analysis/advanced-src/1.0.8.5" />
 				<SourceFileReference Bindings="EnvoyManager" Id="d65fe74c4ab64fc69ceba8713e868a1c" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-analysis-basic-src-1.0.8.6.niaddon" StoragePath="ref://ni/analysis/basic-src/1.0.8.6" />
@@ -693,7 +727,10 @@
 				<SourceFileReference Bindings="EnvoyManager" Id="c966a907a1b14f8796e7ab0227baf5a0" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-core-src-20.0.0.niaddon" StoragePath="ref://NI/Vision/Core-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="e86e8652f9fa42979af5a143f379d118" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-vision-imaqdx-src-20.0.0.niaddon" StoragePath="ref://NI/Vision/IMAQdx-src/20.0.0" />
 				<SourceFileReference Bindings="EnvoyManager" Id="2d4e93b2731f4ea1aefd9db89dd2a306" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-xnet-xnet-src-20.0.0.niaddon" StoragePath="ref://NI/XNET/xnet-src/20.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="bcb773faf9e44155aed0a3ac40499dee" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-switchexecutive-switchexecutive-src-5.0.0.niaddon" StoragePath="ref://NI/SwitchExecutive/SwitchExecutive-src/5.0.0" />
+				<SourceFileReference Bindings="EnvoyManager" Id="fd2a1eb700aa42c9853e88c1fc0c12bb" ModelDefinitionType="PackageInterfaceDefinition" Name="ni-teststand-distribution-src-20.0.0.0.niaddon" StoragePath="ref://NI/TestStand/distribution-src/20.0.0.0" />
 			</EmbeddedDefinitionReference>
+			<SourceFileReference Id="9408e39732f04044a53574665856b888" ModelDefinitionType="DistributionDefinition" Name="Web Server.lvdist" StoragePath="Web Server.lvdist" />
 		</NameScopingEnvoy>
 		<SourceFileReference Id="82f9cc47884746c680d097240c098faf" ModelDefinitionType="SystemManagementDefinition" Name="SystemDesigner" StoragePath="SystemDesigner" />
 	</Project>
